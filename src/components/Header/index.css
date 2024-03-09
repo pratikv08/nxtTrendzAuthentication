@@ -1,0 +1,94 @@
+/* Write your CSS code here */
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  list-style-type: none;
+  padding-top: 3px;
+}
+.logo {
+  width: 125px;
+}
+.logout {
+  width: 23px;
+  cursor: pointer;
+}
+.nav-menu-for-small-width {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+  padding: 15px;
+}
+.nav-menu-img {
+  width: 23px;
+}
+.nav-menu-for-large-width {
+  display: none;
+}
+.logout-btn {
+  padding: 8px 18px;
+  background-color: #0967d2;
+  color: #e6f6ff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  display: none;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 10px;
+  }
+  .nav-content {
+    padding: 0px;
+  }
+  .logo {
+    width: 135px;
+  }
+  .logout {
+    display: none;
+  }
+  .nav-menu-for-small-width {
+    display: none;
+  }
+  .nav-menu-img {
+    width: 23px;
+  }
+  .nav-menu-for-large-width {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 0px;
+    list-style-type: none;
+    width: 100%;
+  }
+  .logout-btn {
+    display: inline;
+    cursor: pointer;
+  }
+  .large-bottom-container {
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    margin-right: 15px;
+    margin-left: 15px;
+
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .link {
+    text-decoration: none;
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+}
